@@ -95,5 +95,4 @@ class HomeController extends GetxController {
       print("error push notification");
     }
   }
-
 }
