@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "550084381860",
+    "project_id": "job-ai-9a015",
+    "storage_bucket": "job-ai-9a015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550084381860:android:f4c8d35d59e45247982a31",
+        "android_client_info": {
+          "package_name": "com.app.video.videocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550084381860-45m94vlvqf2f44vmjb73uc5k7qs9vtvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpeTUhkEoG8SZvr-bjdM0GUEhwskHNv5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550084381860-45m94vlvqf2f44vmjb73uc5k7qs9vtvd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550084381860-1ifj2qqpu0ivsraifbjkjkfrt19vtn8b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterJobSeeking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550084381860:android:5d6ba8edb0954037982a31",
+        "android_client_info": {
+          "package_name": "com.connectycube.flutter.p2p_call_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550084381860-45m94vlvqf2f44vmjb73uc5k7qs9vtvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpeTUhkEoG8SZvr-bjdM0GUEhwskHNv5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550084381860-45m94vlvqf2f44vmjb73uc5k7qs9vtvd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550084381860-1ifj2qqpu0ivsraifbjkjkfrt19vtn8b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterJobSeeking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550084381860:android:bd0bfcbfca3911fd982a31",
+        "android_client_info": {
+          "package_name": "com.example.flutter_job_seeking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550084381860-45m94vlvqf2f44vmjb73uc5k7qs9vtvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpeTUhkEoG8SZvr-bjdM0GUEhwskHNv5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550084381860-45m94vlvqf2f44vmjb73uc5k7qs9vtvd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550084381860-1ifj2qqpu0ivsraifbjkjkfrt19vtn8b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterJobSeeking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
