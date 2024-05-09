@@ -26,7 +26,12 @@ class SplashView extends GetView<SplashController> {
                   ),
                   SizedBox(height: 20,),
                   CircleAvatar(
-                      radius:30,backgroundColor:Colors.orange,child: IconButton(onPressed: (){ Get.to(()=>HomeView());}, icon: Icon(Icons.skip_next)))
+                      radius:30,backgroundColor:Colors.orange,child: IconButton(onPressed: (){ Get.to(()=>HomeView(),arguments: {'userId':'7','channelId':'test'});}, icon: Icon(Icons.skip_next))),
+                  SizedBox(height: 20,),
+
+                  ElevatedButton(onPressed: (){
+                  controller.endAllCalls();
+                }, child: Text('End all calls')),
                 ],
               ),
             ],

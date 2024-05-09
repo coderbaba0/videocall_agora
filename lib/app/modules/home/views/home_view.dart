@@ -15,22 +15,23 @@ class HomeView extends GetView<HomeController> {
         title: const Text('Video Call'),
         centerTitle: true,
       ),
-      body: SafeArea(
-          child: Stack(
-            children: [
-              AgoraVideoViewer(
-                client: controller.client,
-                showNumberOfUsers: true,
-                layoutType: Layout.floating,
-                enableHostControls: true, // Add this to enable host controls
-              ),
-              AgoraVideoButtons(
-                client: controller.client,
-                addScreenSharing: false, // Add this to enable screen sharing
-              ),
-            ],
+        body: SafeArea(
+          child:
+             Stack(
+              children: [
+                AgoraVideoViewer(
+                  client: controller.client,
+                  //showNumberOfUsers: true,
+                  layoutType: Layout.oneToOne,
+                  //enableHostControls: true, // Add this to enable host controls
+                ),
+                  AgoraVideoButtons(
+                  client: controller.client,
+                  addScreenSharing: true, // Add this to enable screen sharing
+                ),
+              ],
+            ),
           ),
-        ),
     );
   }
 }

@@ -15,6 +15,7 @@ class AppRoute {
           builder: (_) => const SplashView(),
           settings: settings,
         );
+
       case callingPage:
         return MaterialPageRoute(
           builder: (_) => const CallingPage(),

@@ -46,7 +46,6 @@ class CallingPageState extends State<CallingPage> {
     String result = "$hourLeft:$minuteLeft:$secondsLeft";
     return result;
   }
-
   @override
   Widget build(BuildContext context) {
     final params = jsonDecode(jsonEncode(

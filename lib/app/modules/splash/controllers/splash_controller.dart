@@ -1,4 +1,5 @@
 import 'package:flutter/animation.dart';
+import 'package:flutter_callkit_incoming/flutter_callkit_incoming.dart';
 import 'package:get/get.dart';
 import 'package:videocall/app/modules/home/views/home_view.dart';
 
@@ -24,5 +25,7 @@ class SplashController extends GetxController
     animationController.forward();
 
   }
-
+  Future<void> endAllCalls() async {
+    await FlutterCallkitIncoming.endAllCalls();
+  }
 }
