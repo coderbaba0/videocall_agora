@@ -9,7 +9,6 @@ import 'package:http/http.dart' as http;
 class HomeController extends GetxController {
    var client = AgoraClient(agoraConnectionData: AgoraConnectionData(appId: '',channelName: '')).obs();
    bool isSnackbarDisplayed = false;
-
   @override
   void onInit() {
     super.onInit();
